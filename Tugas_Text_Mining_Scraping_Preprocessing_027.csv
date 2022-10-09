@@ -1,0 +1,379 @@
+pip install google-search-results
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""Wisata"","
+"  ""ll"": ""@-6.9248378,110.1858214,14z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review1
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e704492601b7fcb:0x9cbb572cde0c8bdd"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+for i in range(10):
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""pantai"","
+"  ""ll"": ""@-8.1018832,111.0225639,11z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 2
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e79678655555555:0xd7c67c7f80fc6423"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range(10):
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+#review 3
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e7bdd013dbec5f7:0x8c6f80dbac239271"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range(10):
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""pantai"","
+"  ""ll"": ""@-7.803249,110.3398253,13z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 4
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e7b00975eac533d:0x351bfe1453e22e36"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""pantai"","
+"  ""ll"": ""@-7.640436,108.4166055,11z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 5
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e65987a099c8fd5:0x89e8e91825571b1"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""restaurant"","
+"  ""ll"": ""@-7.2756141,112.6426428,12z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 6
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2dd7fbebc62d52a5:0x7b44731e55ef119b"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""cafe"","
+"  ""ll"": ""@-7.0203857,109.9993123,11z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 7
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e705cea042ebbaf:0x9ca59cce6f34c06e"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""coffee shop"","
+"  ""ll"": ""@-7.0319806,109.7232964,11z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 8
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e7011bec50c7d21:0x159bbe124b6cd4a1"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""coffee"","
+"  ""ll"": ""@-7.803249,110.3398253,13z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 9
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2e7a59a0ee1b1e9b:0xa40f14f1aefe0c33"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps"","
+"  ""q"": ""restaurant"","
+"  ""ll"": ""@-8.2169235,114.3311311,13z"","
+"  ""type"": ""search"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"local_results = results[""local_results""]"
+
+local_results
+
+#review 10
+from serpapi import GoogleSearch
+params = {
+"  ""engine"": ""google_maps_reviews"","
+"  ""data_id"": ""0x2dd145245cf9f481:0xd26345461e687d89"","
+"  ""api_key"": ""12782435ccdaaf2fb86e4819a71be9c12e56934aeffe56dd334a461937418061"""
+}
+search = GoogleSearch(params)
+results = search.get_dict()
+"reviews = results[""reviews""]"
+
+results
+
+for i in range (10) :
+"  rating = results[""reviews""][i][""rating""]"
+  print(rating)
+"  reviews = results[""reviews""][i][""snippet""]"
+  print(reviews)
+
+####### PROGRAM PREPROCESSING #########
+
+## CASE FOLDING ##
+
+# A. Mengubah Text Menjadi Lowercase
+"kalimat = ""5.0 Great park, great air, carefully conserved Candi complex with lots of historical lesson. During peak times the place is so packed with tourists and sometimes trashes are everywhere."""
+lower_case = kalimat.lower()
+print(lower_case)
+
+# B. Menghapus Angka
+import re
+"kalimat = ""5.0 The best place to enjoy golden sunrise. Not so long tracking. I suggest you to start hike at 3.30 so you need no hurry."""
+"hasil = re.sub(r""\d+"","""", kalimat)"
+print (hasil)
+
+## TOKENIZING ##
+
+import nltk
+nltk.download('book')
+#or
+nltk.download('tests')
+nltk.download('all-corpora')# not recommended as it download huge amount of data.
+
+# impor word_tokenize dari modul nltk
+"from nltk.tokenize import sent_tokenize, word_tokenize"
+"kalimat = "" very beautiful natural scenery, perfect for relaxing."""
+tokens = word_tokenize(kalimat)
+print(tokens)
+
+## STOPWORD REMOVAL ##
+
+# Menggunakan Sastrawati
+!pip install Sastrawi
+# Library Untuk Stramming/Strammer Bahasa Indonesia
+
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+factory = StopWordRemoverFactory()
+stopwords = factory.get_stop_words()
+print(stopwords)
+
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+factory = StopWordRemoverFactory()
+stopword = factory.create_stop_word_remover()
+# Kalimat
+"kalimat = ""Tempat terbaik untuk menikmati golden sunrise. Tapi untuk perjalanan tidak terlalu lama. Saya"
+"menyarankan Anda untuk mulai mendaki pukul 3.30 sehingga Anda tidak perlu terburu-buru."""
+stop = stopword.remove(kalimat)
+print(stop)
+
+## STEMMING ##
+
+!pip install Sastrawi
+# Library Untuk Stramming/Strammer Bahasa Indonesia
+
+# import StemmerFactory class
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory# create stemmer
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()# stemming process
+sentence = 'Tempat terbaik untuk menikmati golden sunrise. Tapi untuk perjalanan tidak terlalu lama. Saya
+menyarankan Anda untuk mulai mendaki pukul 3.30 sehingga Anda tidak perlu terburu-buru.'
+output   = stemmer.stem(sentence)
+print(output)
